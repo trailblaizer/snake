@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="http://code.jquery.com/jquery-1.12.1.min.js"></script>
+    <script src="js/WiseGuy.js"></script>
+    <script src="js/FoodMaker.js"></script>
+    <script src="js/Polygon.js"></script>
+    <script src="js/Dashboard.js"></script>
+    <script src="js/Snake.js"></script>
+    <title>Snake</title>
+</head>
+<body>
+    <div id="polygon">
+        <div id="dashboard">
+            <div id="start">START</div>
+            <div id="points">0</div>
+            <div id="speed">
+                <div>
+                    <label for="slow">Slow</label>
+                    <input type="radio" name="speed" value="Slow" id="slow">
+                </div>
+                <div>
+                    <label for="normal">Normal</label>
+                    <input type="radio" name="speed" value="Normal" id="normal" checked>
+                </div>
+                <div>
+                    <label for="fast">Fast</label>
+                    <input type="radio" name="speed" value="Fast" id="fast">
+                </div>
+                <div>
+                    <label for="faster">Faster</label>
+                    <input type="radio" name="speed" value="Faster" id="faster">
+                </div>
+            </div>
+        </div>
+        <div id="polygon-cover">GAME OVER</div>
+    </div>
+</body>
+</html>
