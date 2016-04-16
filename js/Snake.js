@@ -104,7 +104,6 @@ $(function () {
         }
 
         function _setBodyPos () {
-
             $head.prevAll('.node').each(function (i) {
                 var $this = $(this);
 
